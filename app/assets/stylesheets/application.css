@@ -14,3 +14,25 @@
  *= require_self
  */
 @import url(index.css);
+@import url(show.css);
+
+.banner {
+  background-color: lightgray;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 40px;
+  width: 100%;
+}
+
+.articles {
+  position: absolute;
+  left: 10px;
+}
+
+.btn {
+  position: absolute;
+  right: 10px;
+}

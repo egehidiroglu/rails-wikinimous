@@ -1,0 +1,22 @@
+.article-title {
+  display: flex;
+  border-bottom: 1px solid black;
+  align-items: center;
+  width: 96%;
+  margin: 0 auto;
+}
+
+#title {
+  align-items: center;
+  padding: 10px;
+}
+
+.fa-solid {
+  padding: 5px;
+}
+
+.content {
+  width: 96%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
