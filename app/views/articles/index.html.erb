@@ -1,0 +1,11 @@
+<h1>Wikinimous</h1>
+<div class="container">
+  <% @articles.each do |article| %>
+    <div class="card">
+      <div class="title">
+        <h3 class="card-title"><%= link_to article.title, article_path(article) %></h3>
+      </div>
+      <p class="card-text"><%= article.content %></p>
+    </div>
+  <% end %>
+</div>
